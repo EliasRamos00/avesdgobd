@@ -1,13 +1,11 @@
-
-
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
-
 import '../clases/datos.dart';
+
+/*Si hay interaccion es un statefulwidget, sino es un stateless*/
 
 class Fotos extends StatefulWidget{
   @override
