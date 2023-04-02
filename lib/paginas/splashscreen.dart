@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:avesdgobd/menus/inicio.dart';
+import 'package:avesdgobd/paginas/googleauth.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _SplashScreenState extends State{
       Duration(seconds: 5),(){
         Navigator.of(context).pushReplacement(MaterialPageRoute(
           builder: (BuildContext context){
-            return Inicio();
+            return Inicio();//GoogleAuth();//Inicio();
           }
         ));
         }

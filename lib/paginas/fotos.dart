@@ -21,7 +21,7 @@ class MisFotos extends State<Fotos> {
   String reffoto = "";
   String nomfoto = "";
 
-  Datos? dat = Datos("", "", "", "", "");
+  Datos? dat = Datos("","", "", "", "", "");
 
   Future<void> showSelectionDialog(BuildContext context) {
     return showDialog(
@@ -120,7 +120,7 @@ class MisFotos extends State<Fotos> {
                 print("---------------" + reffoto);
                 visualizafoto();
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return Formulario();
+                  return Formulario("","","","","","");
                 }));
               },
             )

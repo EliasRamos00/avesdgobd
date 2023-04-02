@@ -1,5 +1,5 @@
 class Datos {
-
+  late String id;
   late String numcontrol;
   late String nombrecom;
   late String nombrecien;
@@ -7,7 +7,7 @@ class Datos {
   late String foto;
   static String downloadURL="";
 
-  Datos(this.numcontrol,this.nombrecom, this.nombrecien,this.nombrecdr, this.foto);
+  Datos(this.id, this.numcontrol,this.nombrecom, this.nombrecien,this.nombrecdr, this.foto);
 
 
 }
